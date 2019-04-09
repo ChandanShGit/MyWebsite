@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text/javascript" src="js/mainJs.js"></script>
+        <title>ChandanPortfolio</title>
+
+      </head>
+
+
+
+  <body id="body" class="overflow">
+<!-- Chandan's-Top_header-->
+        <header id="navbar" class="nav-before">
+                <div class="container">
+                        <nav class="topnav" id="myTopnav">
+                            <a id="brand" href="index.html" class="brand-before">Chandan<span style="color:#05C2EA;font-weight:700">Sh</span>arma</a>
+                            <a target="_blank"  href="https://docs.google.com/document/d/15BDHwhKyLlPtSJQ2EV5xmORMzVF4VZ_qTKOlsWWp3e4/edit?usp=sharing">Resume <img style="position: relative; top:5px; left:2px;" src="im/icon/resume.png" height="22px" width="22px"></a>
+                            <a href="javascript:history.go(0)"  style="color:#06C3EB" >Home</a>
+                            <a href="javascript:void(0);" class="icon" onclick="showNav()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            </a>
+                        </nav>
+                </div>
+          </header>
+
+
+<!-- Chandan's-Home_Screen-->
+        <section class="after-scroll-back-normal">
+                  <div class="home-content">
+                        <div id="cks" class="start line-home"></div>
+                        <div class="mid-texts">
+                          <h2 class="left">U<span style="color:#05C2EA">I</span> DESIGNER</h2>
+                          <h2 class="mid"><span style="color:#05C2EA">D</span>EVELOPER</h2>
+                          <h2 class="right"><span style="color:#05C2EA">E</span>XPLORAR</h2>
+                        </div>
+                        <div id="cks2" class="end line-home"></div>
+                        <div class="plan">
+                          <h2>WELCOME TO MY WEB</h2>
+                        </div>
+                  </div>
+                  <div class="social">
+                    <a target="_blank" href="https://www.linkedin.com/in/chandan-wfag"> <img onload="init()" id="linkedin" src="im/icon/ins.png" alt="ln"></a>
+                    <a target="_blank" href="https://github.com/ChandanShGit"><img id="git" src="im/icon/git.png" alt="git"></a>
+                    <a target="_blank" href="https://www.instagram.com/chandan_wfag/?hl=en"> <img id="instagram" src="im/icon/insta.png" alt="ins"></a>
+                  </div>
+          </section>
+
+
+
+<!-- Chandan's-bottom-->
+
+
+        <section>
+                <button id="backword" onclick="backword()" type="button" name="left-move"><</button>
+                <button id="forword" type="button" onclick="forword()" name="right-move">></button>
+
+                      <div id ="profile-view" class="card-show">
+                                  <div class="profile-head">
+                                    <h1>Let Me Introduce</h1>
+                                  </div>
+                                  <div class="profile-wrap">
+                                      <div class="img-pro-wrap" >
+                                          <img src="im/pro.jpg" alt="profile" id="pro-img"  width="100%">
+                                      </div>
+                                      <div class="detail-wrap">
+                                        <p id="detail"></br>Hi There, My name is Chandan. Currently, I'm a Computer Science Engineering student at Krishna Engineering College located in Ghaziabad, India. My Passion is developing and designing Android and Java applications.</p>
+                                        <p style="font-size:20px;color:#ccc;"><span style="color:#ccc"><img style="position:relative;top:8px;right:5px;" width="28px" height="30px" src="im/icon/lr.png">Things I Know,</span></p>
+                                        <div class="familiar-skill">
+                                            <p class="fs"><b>ANDROID STUDIO</b></p>
+                                            <p class="fs"><b>JAVA</b></p>
+                                            <p class="fs"><b>RESTAPI</b></p>
+                                            <p class="fs"><b>HTML | CSS</b></p>
+                                            <p class="fs"><b>ADOBE Xd</b></p>
+                                        </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="skill">
+                                      <div class="skill-type">
+                                        <img src="im/icon/SM.png" alt="">
+                                        <p>GOAL ORIENTED</p>
+                                      </div>
+                                      <div class="skill-type">
+                                        <img src="im/icon/PA.png" alt="">
+                                        <p>OPTIMISTIC ATTITUDE</p>
+                                      </div>
+                                      <div class="skill-type">
+                                        <img src="im/icon/MT.png" alt="">
+                                        <p>MULTI TASK</p>
+                                      </div>
+                                      <div class="skill-type">
+                                        <img src="im/icon/GG.png" alt="">
+                                        <p>GADGET ENTHUSIAST</p>
+                                      </div>
+                                  </div>
+                        </div>
+
+
+                <div id="timeline-view" class="card-hide">
+                    <div class="profile-head">
+                      <h1>Timeline</h1>
+                    </div>
+                    <div class="line"></div>
+                    <div  id="circles" class="circle-holder">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+
+                    <div class="timeline-holder">
+
+                      <div id ="one" class="ach-card-up">
+                            <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                      <a href="#">
+                                          <div class="flip-card-front">
+                                            <h1>NASSCOM Training</h1>
+                                            <p>Completed 320 hours on-campus JAVA training Arise by Arisent Program
+                                              by Centum Foundation in partnership with NASSCOM.
+                                             </p>
+                                          </div>
+                                          <div class="flip-card-back">
+                                            <h1>Not Yet Received</h1>
+                                          </div>
+                                        </a>
+                                    </div>
+                              </div>
+                          <div class="cr-btm-txt">
+                            <h2>Nov. 2019</h2>
+                          </div>
+                      </div>
+
+                  <div id="two" class="ach-card-down">
+                      <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <a target="_blank" href="im/cert/android.jpg">
+                                  <div class="flip-card-front">
+                                    <h1>Android Development Certificate</h1>
+                                    <p>Completed six weeks of Android Development online
+                                      course with <b>Kotlin</b> using <b>Android Studio</b>.</p>
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <img src="im/cert/android.jpg"
+                                      alt="Internshala certificate" width="100%" height="100%">
+                                  </div>
+                                  </a>
+                              </div>
+                        </div>
+                        <div class="cr-btm-txt">
+                          <h2>Jul. 2018</h2>
+                        </div>
+                  </div>
+
+                  <div id ="three" class="ach-card-up">
+                        <div class="flip-card">
+                                  <div class="flip-card-inner">
+                                    <a target="_blank" href="im/cert/SIH.jpg">
+                                      <div class="flip-card-front">
+                                        <h1>Smart India Hackathon</h1>
+                                        <p>Participated in SIH (Smart India Hackathon) 2018, 36 hours long hackathon organized by the government of India.</p>
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <img src="im/cert/SIH.jpg"
+                                          alt="Internshala certificate" width="100%" height="100%">
+                                      </div>
+                                      </a>
+                                  </div>
+                        </div>
+                        <div class="cr-btm-txt">
+                          <h2>Mar. 2018</h2>
+                        </div>
+                  </div>
+                  <div id="four" class="ach-card-down">
+                          <div class="flip-card">
+                                  <div class="flip-card-inner">
+                                      <a target="_blank" href="https://mvfiberglassindustriesga.000webhostapp.com">
+                                      <div class="flip-card-front">
+                                          <h1>MVFGI Website</h1>
+                                          <p>Freelance 'Maa Vaishno FGI'
+                                            Website for my very first client Mr. Rajesh Sharma.</p>
+                                      </div>
+                                      <div class="flip-card-back">
+                                          <img src="im/cert/FGI.jpg" alt="" width="100%" height="100%">
+                                      </div>
+                                    </a>
+                                  </div>
+                        </div>
+                        <div class="cr-btm-txt">
+                          <h2>Apr. 2017</h2>
+                        </div>
+                  </div>
+
+                  <div id ="five" class="ach-card-up">
+                    <div class="flip-card">
+                              <div class="flip-card-inner">
+                                <a target="_blank" href="im/cert/PW.jpg">
+                                  <div class="flip-card-front">
+                                    <h1>Python Workshop</h1>
+                                    <p>Attended 2 days workshop on <b> Python</b> organized by Department of Computer Science
+                                       and Engineering of KEC.</p>
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <img src="im/cert/PW.jpg" alt="Python workshop" width="100%" height="100%">
+                                  </div>
+                                </a>
+                              </div>
+                    </div>
+                    <div class="cr-btm-txt">
+                      <h2>Jan. 2017</h2>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+
+                <div  id="project-view" class="card-hide">
+                          <div class="profile-head">
+                            <h1>How I Code</h1>
+                          </div>
+                          <div class="pro-row">
+                                  <div class="fav">
+                                        <div class="m_img">
+                                          <img src="im/music.gif" alt="Music player" width="100%">
+                                        </div>
+                                        <div class="wd">
+
+                                          <h3>MusicX!</h3>
+                                          <h4 class="based">Platform: Android</h4>
+                                          <h4 class="based">IDE: Android Studio</h4>
+                                          <p>Play music with a stylish User Interface Design.Check this musicx! player on github.
+                                          </br>* Retrieving all Songs present in your internal device.
+                                          </br>* Process Random Songs for you in Go Ahead Section every time you open or refresh your screen.</p>
+                                          <h5 class="ln" >KOTLIN</h5>
+                                          <h5 class="ln" >SQLite</h5>
+                                        </div>
+                                    </div>
+
+                              <div class="fav">
+                                      <div class="m_img">
+                                        <img src="im/chandanorder.gif" alt="fos" width="100%">
+                                      </div>
+                                      <div class="wd">
+                                        <h3>FOS(Order Food)</h3>
+                                        <h4 class="based">Platform: Android</h4>
+                                        <h4 class="based">IDE: Android Studio</h4>
+                                        <p>Android based food ordering app that enable user to order food from the list of food with cash on delivery option.
+                                        </br>*	Fetching foods from server using retrofit.
+                                      </br>* Store information of orders and users in MySQL DB on Server.
+                                        </p>
+                                        <h5 class="ln">JAVA</h5>
+                                        <h5 class="ln">RestAPI</h5>
+                                        <h5 class="ln">MySQL</h5>
+                                        <h5 class="ln">PHP Scripts </h5>
+
+
+                                      </div>
+                                </div>
+                                <div class="btm-nav-btns">
+                                  <!-- <a target="_blank" href="https://github.com/ChandanShGit?tab=repositories"><button class="sr" name="button">My Design</button></a>
+                                  <a target="_blank" href="https://github.com/ChandanShGit?tab=repositories"><button class="sr" name="button">My Logos</button></a> -->
+                                  <a target="_blank" href="https://github.com/ChandanShGit?tab=repositories"><button class="sr" name="button">Github repositories</button></a>
+                                </div>
+
+                      </div>
+                </div>
+
+        </section>
+
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+  </body>
+</html>
